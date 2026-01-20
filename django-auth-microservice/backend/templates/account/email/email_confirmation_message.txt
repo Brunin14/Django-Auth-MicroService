@@ -1,0 +1,11 @@
+Olá, {% if user.first_name %}{{ user.first_name }}{% else %}{{ user.email }}{% endif %}!
+
+Obrigado por se cadastrar no Django Auth Micro Service.
+Para ativar sua conta, por favor clique no link abaixo⬇️:
+
+{{ activate_url }}
+
+Se você não criou esta conta, por favor ignore este e-mail.
+
+Atenciosamente,
+Bruno Alves

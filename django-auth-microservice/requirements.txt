@@ -1,0 +1,17 @@
+Django>=5.0,<6.0
+djangorestframework>=3.15
+djangorestframework-simplejwt>=5.3
+dj-rest-auth>=6.0
+django-allauth>=0.60
+drf-spectacular>=0.27
+
+django-otp>=1.5
+
+python-dotenv>=1.0
+
+pytest>=8.0
+pytest-django>=4.8
+coverage>=7.6
+
+requests>=2.32
+cryptography>=42.0
